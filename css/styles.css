@@ -56,11 +56,10 @@ body {
 .header-link:focus {
   color: var(--pressed-state-color);
 }
-.header-link-adress {
-}
 
 .header-mailo {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -73,6 +72,7 @@ body {
 
 .header-tel {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -180,14 +180,12 @@ body {
   letter-spacing: 0.02em;
 }
 .footer {
-  position: absolute;
   width: 100%;
   height: 310px;
   background: var(--dark-color);
 }
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -261,12 +259,11 @@ body {
 .card-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 .card-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
